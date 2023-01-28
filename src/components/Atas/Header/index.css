@@ -1,6 +1,7 @@
 /* MAIN STYLE */
 .Header .mainHeader {
     display: flex;
+    position: relative;
     flex-direction: column;
     gap: 1.25rem;
     width: 100%;
@@ -138,7 +139,7 @@
 
     .gifa {
         width: 40vw;
-        top: 56%;
+        top: 80%;
     }
 }
 
@@ -185,7 +186,7 @@
 
     .gifa {
         width: 20vw;
-        top: 38%;
+        top: 80%;
     }
 
 }
