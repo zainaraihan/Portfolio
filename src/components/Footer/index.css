@@ -23,7 +23,6 @@
 .Footer .mainFooter .time {
     display: flex;
     align-self: flex-end;
-    margin-left: 14.06rem;
 }
 
 .Footer .mainFooter .right {
@@ -33,7 +32,7 @@
 }
 
 .Footer .mainFooter .right .top p {
-    height: 1.56rem;
+    height: 2vw;
 }
 
 @media only screen and (max-width: 767px) {
