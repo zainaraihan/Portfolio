@@ -62,12 +62,12 @@ const Portfolio = () => {
                                     onMouseLeave={handleLeave}
                                     style={{ filter: gray }}
                                     className='frameImg frameImg1'>
-                                    <img src="../src/assets/Portfolio/Frontend/alQuran.png" alt="" />
+                                    <img src="/assets/Portfolio/Frontend/alQuran.png" alt="" />
                                 </div>
                                 <div className='frameText frameText1'>
                                     <div className="textHeader">
                                         <div className="headerArrow">
-                                            <img src="../src/assets/Portfolio/arrow.png" alt="" />
+                                            <img src="/assets/Portfolio/arrow.png" alt="" />
                                         </div>
                                         <div className='pHeader'>E Al-Quran</div>
                                     </div>
@@ -84,12 +84,12 @@ const Portfolio = () => {
                                     onMouseLeave={handleLeave}
                                     style={{ filter: gray }}
                                     className='frameImg frameImg1'>
-                                    <img src="../src/assets/Portfolio/Frontend/alQuran.png" alt="" />
+                                    <img src="/assets/Portfolio/Frontend/alQuran.png" alt="" />
                                 </div>
                                 <div className='frameText frameText1'>
                                     <div className="textHeader">
                                         <div className="headerArrow">
-                                            <img src="../src/assets/Portfolio/arrow.png" alt="" />
+                                            <img src="/assets/Portfolio/arrow.png" alt="" />
                                         </div>
                                         <div className='pHeader'>E Al-Quran</div>
                                     </div>
@@ -129,12 +129,12 @@ const Portfolio = () => {
                                     onMouseLeave={handleLeave2}
                                     style={{ filter: gray2 }}
                                     className='frameImg frameImg1'>
-                                    <img src="../src/assets/Portfolio/Graphic/GD1.png" alt="" />
+                                    <img src="/assets/Portfolio/Graphic/GD1.png" alt="" />
                                 </div>
                                 <div className='frameText frameText1'>
                                     <div className="textHeader">
                                         <div className="headerArrow">
-                                            <img src="../src/assets/Portfolio/arrow.png" alt="" />
+                                            <img src="/assets/Portfolio/arrow.png" alt="" />
                                         </div>
                                         <p className='pHeader'>SIA The Label</p>
                                     </div>
@@ -151,12 +151,12 @@ const Portfolio = () => {
                                     onMouseLeave={handleLeave2}
                                     style={{ filter: gray2 }}
                                     className='frameImg frameImg1'>
-                                    <img src="../src/assets/Portfolio/Graphic/GD1.png" alt="" />
+                                    <img src="/assets/Portfolio/Graphic/GD1.png" alt="" />
                                 </div>
                                 <div className='frameText frameText1'>
                                     <div className="textHeader">
                                         <div className="headerArrow">
-                                            <img src="../src/assets/Portfolio/arrow.png" alt="" />
+                                            <img src="/assets/Portfolio/arrow.png" alt="" />
                                         </div>
                                         <p className='pHeader'>E Al-Quran</p>
                                     </div>

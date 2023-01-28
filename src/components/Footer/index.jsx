@@ -61,7 +61,7 @@ const Footer = () => {
                         style={{ cursor: "pointer" }}
                         onClick={toTop}
                         className="top">
-                        <p>Back to Top <img src="../src/assets/portfolio/arrowfooter.png" alt="" /></p>
+                        <p>Back to Top <img src="/assets/Portfolio/arrowfooter.png" alt="" /></p>
                     </div>
                     <p className="copyright">© Zain 2023.</p>
                 </div>
