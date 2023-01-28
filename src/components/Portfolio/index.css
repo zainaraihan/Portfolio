@@ -100,6 +100,7 @@
 .Portfolio .value .main .label .scroll {
     display: flex;
     overflow: hidden;
+    z-index: -1;
 }
 
 .Portfolio .value .main .label .scroll .scroll_t {

@@ -74,7 +74,7 @@
     width: 28rem;
     position: absolute;
     right: 5%;
-    top: 50px;
+    top: -50px;
     z-index: -1;
 }
 
@@ -180,8 +180,8 @@
     /* GIF SIZE */
     .gifz {
         width: 30vw;
-        top: 11%;
-        right: 1%;
+        top: 5%;
+        right: -30px;
     }
 
     .gifa {
