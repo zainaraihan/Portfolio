@@ -1,0 +1,125 @@
+.Contact {
+    color: #bdff00;
+    font-size: 5.93rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10.25rem;
+}
+
+.Contact a {
+    text-decoration: none;
+    color: #bdff00;
+}
+
+.Contact .mainContact {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 37.25rem;
+    justify-content: space-between;
+    text-align: justify;
+    align-items: center;
+    margin-top: 3.25rem;
+}
+
+.Contact .mainContact p {
+    letter-spacing: -0.1em;
+    transition: all 2s ease;
+}
+
+.Contact .mainContact .number {
+    position: absolute;
+    bottom: 20%;
+    transition: font-size 1s ease;
+}
+
+.Contact .mainContact .number a {
+    width: 100%;
+    text-align: justify;
+    transition: -webkit-filter 2s ease, color 2s ease, letter-spacing 0.5s ease-out;
+}
+
+.Contact .mainContact .number a div span {
+    transition: transform 1.5s ease;
+}
+
+.Contact .mainContact .socmed {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.Contact .mainContact .socmed .EmailSocmed {
+    display: none;
+}
+
+.Contact .mainContact .socmed div a {
+    transition: margin-left 1s ease, margin-right 1s ease, color 2s ease, -webkit-filter 2s ease;
+}
+
+.Contact .mainContact .socmed div a div span {
+    transition: transform 1.5s;
+}
+
+.Contact .mainContact .socmed div a div .last {
+    transition: transform 0.5s;
+}
+
+/* Tablet */
+@media only screen and (max-width: 1300px) {
+    .Contact .mainContact .socmed {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .Contact {
+        font-size: 18vw;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 50vw;
+    }
+
+    .Contact .mainContact {
+        padding: 0 4vw;
+        align-items: flex-start;
+        height: 100%;
+        text-align: start;
+    }
+
+    .Contact .mainContact .socmed .EmailSocmed {
+        display: inline;
+    }
+
+    .Contact .mainContact .number {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .Contact {
+        font-size: 18vw;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 20vw;
+    }
+
+    .Contact .mainContact {
+        padding: 0 4vw;
+        align-items: flex-start;
+        height: 100%;
+        text-align: start;
+    }
+
+    .Contact .mainContact .socmed .EmailSocmed {
+        display: inline;
+    }
+
+    .Contact .mainContact .number {
+        display: none;
+    }
+}

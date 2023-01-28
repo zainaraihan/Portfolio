@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Uncut";
+    src: url("./fonts/Uncut-Sans-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "UncutBold";
+    src: url("./fonts/Uncut-Sans-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Felipa";
+    src: url("./fonts/Felipa-Regular.otf") format("opentype");
+}

@@ -1,0 +1,210 @@
+/* MAIN STYLE */
+.Portfolio {
+    color: #bdff00;
+    display: flex;
+    flex-direction: column;
+    padding: 9.18rem 0;
+}
+
+.Portfolio .value .main {
+    display: flex;
+    flex-direction: column;
+    gap: 2.87rem;
+    margin-bottom: 9.18rem;
+}
+
+.Portfolio .value .main .label {
+    position: sticky;
+    top: 0;
+}
+
+.Portfolio .value .main .label .lab {
+    font-size: 5.12rem;
+    font-weight: 500;
+    padding: 0px 2.12rem;
+}
+
+.Portfolio .value .main .isi {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0px 2.12rem;
+}
+
+.Portfolio .value .main .isi .f {
+    text-decoration: none;
+}
+
+.Portfolio .value .main .isi .f:nth-child(odd) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Portfolio .value .main .isi .f:nth-child(even) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.Portfolio .value .main .isi .f .frame {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 3.37rem 0;
+    width: 41.43rem;
+    height: 28.75rem;
+}
+
+.Portfolio .value .main .isi .f .frame .frameImg {
+    transition: all 0.5s ease;
+}
+
+
+
+.Portfolio .value .main .isi .f .frame .frameImg img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+
+.Portfolio .value .main .isi .f .frame .frameText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+}
+
+.Portfolio .value .main .isi .f .frame .frameText .textHeader {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.Portfolio .value .main .isi .f .frame .frameText .textHeader .pHeader {
+    font-size: 2.12rem;
+    color: #bdff00;
+    text-decoration: none;
+}
+
+.Portfolio .value .main .isi .f .frame .frameText .textDetail {
+    color: white;
+}
+
+
+/* SCROLL STYLE */
+.Portfolio .value .main .label .scroll {
+    display: flex;
+    overflow: hidden;
+}
+
+.Portfolio .value .main .label .scroll .scroll_t {
+    font-size: 28.12rem;
+    text-transform: uppercase;
+    animation: textScroll 15s linear infinite;
+}
+
+.Portfolio .value .main .label .scroll .scroll_t2 {
+    animation-delay: 15s;
+}
+
+.Portfolio .value .main .label .scroll .scroll_t p {
+    font-family: UncutBold;
+    transition: -webkit-filter 1s ease, color 0.5s ease;
+}
+
+.Portfolio .value .main .label .scroll .scroll_t {
+    font-size: 28.12rem;
+    text-transform: uppercase;
+    animation: textScroll 15s linear infinite;
+}
+
+.Portfolio .Gd .mainGd .labelGd .scroll .scroll_t {
+    animation: textScroll 30s linear infinite;
+}
+
+.Portfolio .Gd .mainGd .labelGd .scroll .scroll_t2 {
+    animation-delay: 30s;
+}
+
+@keyframes textScroll {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .Portfolio .value .main .isi {
+        gap: 35vw;
+    }
+
+    .Portfolio .value .main .label .lab {
+        font-size: 10.4vw;
+    }
+
+    .Portfolio .value .main .isi .f:nth-child(even) {
+        align-items: flex-start;
+    }
+
+    .Portfolio .value .main .label .lab {
+        padding: 0 4vw;
+    }
+
+    .Portfolio .value .main .isi {
+        padding: 0 4vw;
+        margin-bottom: 100vw;
+    }
+
+    /* FRAME */
+    .Portfolio .value .main .isi .f .frame {
+        width: 89vw;
+        margin: 55vw 0;
+    }
+
+    /* SCROLL */
+    .Portfolio .value .main .label .scroll {
+        margin-top: 200px;
+    }
+
+    .Portfolio .value .main .label .scroll .scroll_t {
+        font-size: 100vw;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .Portfolio .value .main .isi {
+        gap: 100vw;
+        margin-bottom: 70vw;
+    }
+
+    .Portfolio .value .main .label .lab {
+        font-size: 10.4vw;
+    }
+
+    .Portfolio .value .main .isi .f:nth-child(even) {
+        align-items: center;
+    }
+
+    /* FRAME */
+    .Portfolio .value .main .isi .f .frame {
+        width: 90vw;
+        margin: 55vw 0;
+    }
+
+    /* SCROLL */
+    .Portfolio .value .main .label .scroll {
+        margin-top: 0;
+    }
+
+    .Portfolio .value .main .label .scroll .scroll_t {
+        font-size: 85vw;
+    }
+}

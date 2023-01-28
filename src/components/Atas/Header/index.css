@@ -1,0 +1,191 @@
+/* MAIN STYLE */
+.Header .mainHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    width: 100%;
+    z-index: 0;
+}
+
+.Header .mainHeader div {
+    display: flex;
+    align-items: center;
+    gap: 3.25em;
+}
+
+/* TEXT HEADER STYLE */
+.Header .mainHeader div p {
+    font-family: UncutBold;
+}
+
+.Header .mainHeader div p span {
+    font-family: UncutBold;
+}
+
+.Header .mainHeader div .felipa {
+    font-family: Felipa, Arial, Helvetica, sans-serif;
+    font-size: 7vw;
+    font-weight: 400;
+}
+
+.Header .mainHeader div .uncut {
+    font-size: 6vw;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.Header .mainHeader .textTiga {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* IMAGE HEADER STYLE */
+.Header .mainHeader div div {
+    height: 6.875rem;
+    border-radius: 20px;
+}
+
+.Header .mainHeader div .imgSatu {
+    width: 20.6rem;
+    background-image: url("/imgSatu.jpg");
+    background-size: 100%;
+}
+
+.Header .mainHeader div .imgDua {
+    width: 27.8rem;
+    background-image: url("/imgDua.jpg");
+    background-size: 100%;
+}
+
+.Header .mainHeader div .imgTiga {
+    width: 23.5rem;
+    background-image: url("/imgTiga.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.Header .mainHeader div .igm {
+    filter: grayscale(1);
+}
+
+/* Gif Style */
+.gifz {
+    width: 28rem;
+    position: absolute;
+    right: 5%;
+    top: 50px;
+    z-index: -1;
+}
+
+.gifa {
+    width: 20rem;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 1600px) {
+    .gifa {
+        top: 40%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .gifa {
+        top: 35%;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    .Header .mainHeader {
+        gap: 6vw;
+    }
+
+    /* IMAGE NONE */
+    .Header .mainHeader .textSatu .imgSatu {
+        display: none;
+    }
+
+    .Header .mainHeader .textDua .imgDua {
+        display: none;
+    }
+
+    .Header .mainHeader .textTiga .imgTiga {
+        display: none;
+    }
+
+    /* DISPLAY UNTUK FRONTEND AGAR DARI KIRI */
+    .Header .mainHeader .textTiga {
+        justify-content: flex-start;
+    }
+
+    /* FONT SIZE */
+    .Header .mainHeader div .felipa {
+        font-size: 22vw;
+    }
+
+    .Header .mainHeader div .uncut {
+        font-size: 15.2vw;
+    }
+
+    /* GIF SIZE */
+    .gifz {
+        width: 60vw;
+        top: 20%;
+    }
+
+    .gifa {
+        width: 40vw;
+        top: 56%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+
+    .Header .mainHeader {
+        gap: 6vw;
+    }
+
+    /* IMAGE */
+    .Header .mainHeader div div {
+        height: 13vw;
+        border-radius: 1.5vw;
+    }
+
+    .Header .mainHeader .textSatu .imgSatu {
+        display: none;
+    }
+
+    .Header .mainHeader div .imgDua {
+        width: 50vw;
+    }
+
+    .Header .mainHeader div .imgTiga {
+        width: 50vw;
+    }
+
+    /* FONT SIZE */
+    .Header .mainHeader div .felipa {
+        font-size: 15vw;
+    }
+
+    .Header .mainHeader div .uncut {
+        font-size: 12vw;
+    }
+
+    /* GIF SIZE */
+    .gifz {
+        width: 30vw;
+        top: 11%;
+        right: 1%;
+    }
+
+    .gifa {
+        width: 20vw;
+        top: 38%;
+    }
+
+}

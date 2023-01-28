@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.PhotoAbout .mainPhotoAbout {
+    padding: 0 2.12rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 2.37rem 0px;
+    gap: 2rem;
+}
+
+.PhotoAbout .mainPhotoAbout .card {
+    width: 50%;
+    height: 56.5rem;
+    border-radius: 18px;
+}
+
+.PhotoAbout .mainPhotoAbout .photo {
+    background-image: url("/profile.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(1);
+}
+
+.PhotoAbout .mainPhotoAbout .about {
+    display: flex;
+    background-color: #BDFF00;
+}
+
+.PhotoAbout .mainPhotoAbout .about .mainAbout {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.PhotoAbout .mainPhotoAbout .about .mainAbout p {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: Uncut;
+    font-weight: 700;
+}
+
+.PhotoAbout .mainPhotoAbout .about .mainAbout .isiDetail {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.PhotoAbout .mainPhotoAbout .about .mainAbout .isiDetail .detailLink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PhotoAbout .mainPhotoAbout .about .mainAbout .isiDetail .detailLink .arrow img {
+    width: 80%;
+}
+
+.PhotoAbout .mainPhotoAbout .about .mainAbout .isiDetail .detailLink .image {
+    width: 8rem;
+    height: 2.87rem;
+    border-radius: 5px;
+    background-image: url('/profiledua.png');
+    background-size: cover;
+    filter: grayscale(1);
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    .PhotoAbout .mainPhotoAbout {
+        flex-direction: column;
+        padding: 0 4vw;
+        margin: 5vw 0;
+    }
+
+    .PhotoAbout .mainPhotoAbout .card {
+        width: 100%;
+        height: 105vw;
+        border-radius: 3vw;
+    }
+
+    .PhotoAbout .mainPhotoAbout .about .mainAbout {
+        margin: 5vw;
+    }
+
+    .PhotoAbout .mainPhotoAbout .about .mainAbout p {
+        font-size: 2.9vw;
+    }
+
+    .PhotoAbout .mainPhotoAbout .about .mainAbout .isiDetail {
+        gap: 9vw;
+    }
+
+    .PhotoAbout .mainPhotoAbout .about .mainAbout .isiDetail .detailLink {
+        align-items: center;
+    }
+
+    .PhotoAbout .mainPhotoAbout .about .mainAbout .isiDetail .detailLink .arrow img {
+        width: 7vw;
+    }
+
+    .PhotoAbout .mainPhotoAbout .about .mainAbout .isiDetail .detailLink .image {
+        width: 30vw;
+        height: 11vw;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .PhotoAbout .mainPhotoAbout {
+        flex-direction: column;
+    }
+
+    .PhotoAbout .mainPhotoAbout .about .mainAbout {
+        margin: 5vw;
+    }
+
+    .PhotoAbout .mainPhotoAbout .card {
+        width: 100%;
+        height: 105vw;
+        border-radius: 3vw;
+    }
+
+    .PhotoAbout .mainPhotoAbout .about .mainAbout p {
+        font-size: 2.5vw;
+    }
+
+    .PhotoAbout .mainPhotoAbout .about .mainAbout .isiDetail .detailLink .arrow img {
+        width: 7vw;
+    }
+
+    .PhotoAbout .mainPhotoAbout .about .mainAbout .isiDetail .detailLink .image {
+        width: 30vw;
+        height: 11vw;
+    }
+}

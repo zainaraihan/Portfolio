@@ -1,0 +1,38 @@
+.Nav .mainNav {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.Nav .mainNav a {
+    color: black;
+    text-decoration: none;
+}
+
+.Nav .mainNav .list {
+    display: flex;
+    gap: 3.56rem;
+}
+
+.Nav .mainNav .list div {
+    cursor: pointer;
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    .Nav .mainNav {
+        font-size: 3vw;
+    }
+
+    .Nav .mainNav .list {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .Nav .mainNav {
+        font-size: 2vw;
+    }
+}

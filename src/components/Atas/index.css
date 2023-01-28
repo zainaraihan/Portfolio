@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Atas {
+    background-color: #BDFF00;
+}
+
+.mainAtas {
+    padding: 0 4vw;
+}
+
+.Nav {
+    padding: 1.5rem 0 0 0;
+}
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4.25rem 0;
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    .Header {
+        padding: 17vw 0 27vw 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .Header {
+        padding: 10vw 0 15vw 0
+    }
+}
