@@ -71,6 +71,7 @@
     border-radius: 5px;
     background-image: url('/profiledua.png');
     background-size: cover;
+    filter: grayscale(1);
 }
 
 /* Mobile */
@@ -110,6 +111,7 @@
     .PhotoAbout .mainPhotoAbout .about .mainAbout .isiDetail .detailLink .image {
         width: 30vw;
         height: 11vw;
+        filter: grayscale(0);
     }
 
     .PhotoAbout .mainPhotoAbout .photo {
@@ -145,6 +147,7 @@
     .PhotoAbout .mainPhotoAbout .about .mainAbout .isiDetail .detailLink .image {
         width: 30vw;
         height: 11vw;
+        filter: grayscale(0);
     }
 
     .PhotoAbout .mainPhotoAbout .photo {

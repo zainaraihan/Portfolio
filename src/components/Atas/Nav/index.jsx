@@ -15,6 +15,12 @@ const Nav = () => {
             behavior: 'smooth'
         })
     }
+    const tagAbout = () => {
+        const about = document.getElementById("about");
+        about.scrollIntoView({
+            behavior: 'smooth'
+        })
+    }
 
     return (
         <div className="Nav">
@@ -23,7 +29,7 @@ const Nav = () => {
                 <div className="list">
                     <div onClick={tagWork}>Work</div>
                     <div onClick={tagContact}>Contact</div>
-                    <a href="#4">About</a>
+                    <div onClick={tagAbout}>About</div>
                 </div>
             </div>
         </div>

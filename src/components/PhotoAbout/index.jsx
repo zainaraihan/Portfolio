@@ -2,7 +2,7 @@ import "../PhotoAbout/index.css"
 
 const PhotoAbout = () => {
     return (
-        <div className="PhotoAbout">
+        <div id="about" className="PhotoAbout">
             <div className="mainPhotoAbout">
                 <div className="card photo">
                 </div>
