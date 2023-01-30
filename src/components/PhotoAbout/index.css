@@ -22,6 +22,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(1);
+    transition: filter 1s ease;
+}
+
+.PhotoAbout .mainPhotoAbout .photo:hover {
+    filter: grayscale(0);
+    transition: filter 1s ease;
 }
 
 .PhotoAbout .mainPhotoAbout .about {
@@ -65,7 +71,6 @@
     border-radius: 5px;
     background-image: url('/profiledua.png');
     background-size: cover;
-    filter: grayscale(1);
 }
 
 /* Mobile */
@@ -106,6 +111,12 @@
         width: 30vw;
         height: 11vw;
     }
+
+    .PhotoAbout .mainPhotoAbout .photo {
+        filter: grayscale(0);
+    }
+
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
@@ -134,5 +145,9 @@
     .PhotoAbout .mainPhotoAbout .about .mainAbout .isiDetail .detailLink .image {
         width: 30vw;
         height: 11vw;
+    }
+
+    .PhotoAbout .mainPhotoAbout .photo {
+        filter: grayscale(0);
     }
 }

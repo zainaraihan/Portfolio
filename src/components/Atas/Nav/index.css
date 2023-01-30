@@ -27,7 +27,7 @@
     }
 
     .Nav .mainNav .list {
-        display: none;
+        gap: 5vw;
     }
 }
 

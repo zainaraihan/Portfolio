@@ -134,12 +134,12 @@
     /* GIF SIZE */
     .gifz {
         width: 60vw;
-        top: 20%;
+        top: 16%;
+        right: 0%;
     }
 
     .gifa {
-        width: 40vw;
-        top: 80%;
+        display: none;
     }
 }
 
