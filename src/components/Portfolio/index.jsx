@@ -1,8 +1,10 @@
 import '../Portfolio/index.css'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const Portfolio = () => {
     const [gray, setGray] = useState("grayscale(1)");
+    const grays = "grayscale(0)";
+    const [ckc, setCkc] = useState(true)
     const [scrl, setScrl] = useState("rgb(172, 172, 172)");
     const [brl, setBrl] = useState("blur(0px)");
 
@@ -18,6 +20,7 @@ const Portfolio = () => {
     }
 
     const [gray2, setGray2] = useState("grayscale(1)");
+    const grays2 = "grayscale(0)";
     const [scrl2, setScrl2] = useState("rgb(172, 172, 172)");
     const [brl2, setBrl2] = useState("blur(0px)");
 
@@ -32,6 +35,19 @@ const Portfolio = () => {
         setBrl2("blur(0px)");
     }
 
+    const [wdth, setWdth] = useState(window.innerWidth);
+    const handleResize = () => {
+        setWdth(window.innerWidth)
+    }
+
+    useEffect(() => {
+        window.addEventListener('resize', handleResize);
+        if (wdth < 769) {
+            setCkc(false)
+        } else (
+            setCkc(true)
+        )
+    })
 
     return (
         <div className="Portfolio">
@@ -60,7 +76,7 @@ const Portfolio = () => {
                                 <div
                                     onMouseEnter={handleEnter}
                                     onMouseLeave={handleLeave}
-                                    style={{ filter: gray }}
+                                    style={{ filter: ckc ? (gray) : (grays) }}
                                     className='frameImg frameImg1'>
                                     <img src="/assets/Portfolio/Frontend/alQuran.png" alt="" />
                                 </div>
@@ -82,7 +98,7 @@ const Portfolio = () => {
                                 <div
                                     onMouseEnter={handleEnter}
                                     onMouseLeave={handleLeave}
-                                    style={{ filter: gray }}
+                                    style={{ filter: ckc ? (gray) : (grays) }}
                                     className='frameImg frameImg1'>
                                     <img src="/assets/Portfolio/Frontend/alQuran.png" alt="" />
                                 </div>
@@ -127,7 +143,7 @@ const Portfolio = () => {
                                 <div
                                     onMouseEnter={handleEnter2}
                                     onMouseLeave={handleLeave2}
-                                    style={{ filter: gray2 }}
+                                    style={{ filter: ckc ? (gray2) : (grays2) }}
                                     className='frameImg frameImg1'>
                                     <img src="/assets/Portfolio/Graphic/GD1.png" alt="" />
                                 </div>
@@ -149,7 +165,7 @@ const Portfolio = () => {
                                 <div
                                     onMouseEnter={handleEnter2}
                                     onMouseLeave={handleLeave2}
-                                    style={{ filter: gray2 }}
+                                    style={{ filter: ckc ? (gray2) : (grays2) }}
                                     className='frameImg frameImg1'>
                                     <img src="/assets/Portfolio/Graphic/GD1.png" alt="" />
                                 </div>

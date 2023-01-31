@@ -53,9 +53,10 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    margin: 3.37rem 0;
+    margin: 15rem 0;
     width: 41.43rem;
     height: 28.75rem;
+    z-index: 1;
 }
 
 .Portfolio .value .main .isi .f .frame .frameImg {
