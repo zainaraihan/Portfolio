@@ -12,7 +12,7 @@ const PhotoAbout = () => {
                         <div className="isiDetail">
                             <div className="detailParagraph">
                                 <p>
-                                    As a creative developer, I bring a unique blend of design and technical expertise to every project. With 3 years of experience as a graphic designer and 1 year as a frontend developer, I have honed my skills in both aesthetics and functionality.
+                                    As a creative developer, I bring a unique blend of design and technical expertise to every project. With 3 years of experience as a graphic designer and 1 year as a frontend developer, I have honed my skills in both aesthetics and functionality..
                                 </p>
                             </div>
                             <div className="detailLink">
