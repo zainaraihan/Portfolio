@@ -12,12 +12,12 @@ const PhotoAbout = () => {
                         <div className="isiDetail">
                             <div className="detailParagraph">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in nisl ac neque iaculis lobortis ut in nulla. Mauris rutrum lacinia urna. Praesent euismod volutpat accumsan. Praesent cursus faucibus eros, at mollis dolor fringilla ut. Mauris consequat sagittis odio convallis. Sed ac nibh nec justo ultrices ultrices sed sed ante. Sed ac sollicitudin leo.
+                                    As a creative developer, I bring a unique blend of design and technical expertise to every project. With 3 years of experience as a graphic designer and 1 year as a frontend developer, I have honed my skills in both aesthetics and functionality.
                                 </p>
                             </div>
                             <div className="detailLink">
                                 <div className="image"></div>
-                                <a href="#about" className="arrow">
+                                <a href="/about" className="arrow">
                                     <img src="/arrow.png" alt="" />
                                 </a>
                             </div>
