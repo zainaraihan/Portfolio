@@ -1,4 +1,3 @@
-import Nav from "../Atas/Nav/index"
 import './index.css'
 
 const About = () => {
