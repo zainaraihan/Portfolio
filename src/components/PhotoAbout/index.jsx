@@ -17,7 +17,7 @@ const PhotoAbout = () => {
                             </div>
                             <div className="detailLink">
                                 <div className="image"></div>
-                                <a href="/about" className="arrow">
+                                <a href="about" className="arrow">
                                     <img src="/arrow.png" alt="" />
                                 </a>
                             </div>
