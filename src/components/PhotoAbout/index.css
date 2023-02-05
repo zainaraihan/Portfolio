@@ -23,6 +23,7 @@
     background-size: cover;
     filter: grayscale(1);
     transition: filter 1s ease;
+    background-position: center;
 }
 
 .PhotoAbout .mainPhotoAbout .photo:hover {
