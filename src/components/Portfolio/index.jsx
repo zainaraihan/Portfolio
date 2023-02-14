@@ -139,7 +139,7 @@ const Portfolio = () => {
                     </div>
                     <div className="isi isiGd">
                         <div className="f f1 f1Gd">
-                            <div className="frame frame1 frame1Gd">
+                            <a href="/sia" className="frame frame1 frame1Gd">
                                 <div
                                     onMouseEnter={handleEnter2}
                                     onMouseLeave={handleLeave2}
@@ -158,29 +158,29 @@ const Portfolio = () => {
                                         /Logo /Brand
                                     </p>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                        <div className="f f2 f2Gd">
-                            <div className="frame frame1 frame1Gd">
+                        <div className="f f1 f1Gd">
+                            <a href="/gaming" className="frame frame1 frame1Gd">
                                 <div
                                     onMouseEnter={handleEnter2}
                                     onMouseLeave={handleLeave2}
                                     style={{ filter: ckc ? (gray2) : (grays2) }}
                                     className='frameImg frameImg1'>
-                                    <img src="/assets/Portfolio/Graphic/GD1.png" alt="" />
+                                    <img src="/assets/Portfolio/Graphic/Gaming/Header.png" alt="" />
                                 </div>
                                 <div className='frameText frameText1'>
                                     <div className="textHeader">
                                         <div className="headerArrow">
                                             <img src="/assets/Portfolio/arrow.png" alt="" />
                                         </div>
-                                        <p className='pHeader'>E Al-Quran</p>
+                                        <p className='pHeader'>Gamingghype</p>
                                     </div>
                                     <p className='textDetail'>
-                                        /Logo /Brand
+                                        /Logo /SocialMedia
                                     </p>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
