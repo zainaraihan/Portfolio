@@ -6,13 +6,13 @@ const Gaming = () => {
             <GD
                 header="/assets/Portfolio/Graphic/Gaming/Header.png"
 
-                nama="SIA THE LABEL"
+                nama="GAMINGGHYPE"
 
-                services={[<p>Logo</p>, <p>Brand Identity</p>]}
+                services={[<p>Logo</p>, <p>Social Media</p>]}
 
-                atas="Gaming The Label is a fashion brand for young women who want to express their individuality through their style. It offer a curated collection of on-trend and fashionable products that cater to the unique needs and tastes of young women. From casual streetwear to elegant partywear, The collection empowers young women to embrace their personal style and feel confident, beautiful, and stylish every day."
+                atas="As a graphic designer, I am proud to present my latest work for Gamingghype, a brand for the Sale and Purchase of Used Ps4 Game Cassettes. The brand is targeted towards a young demographic between the ages of 20 and 30, and I wanted to capture their playful and adventurous spirit in the design. I chose to use a black and white color scheme with fun and bold designs to create a modern and eye-catching look for the brand."
 
-                bawah="As a freelance graphic designer, I am proud to have created a memorable and impactful logo and brand identity for my client, Gaming The Label, a fashion brand. My understanding of the fashion industry and my expertise in graphic design allowed me to craft a logo and brand identity that accurately reflects the unique essence and values of the client. With a keen eye for detail and a commitment to quality, I was able to deliver a design that not only looks great but also effectively communicates the client's message to their target audience in the fashion industry. I am dedicated to providing exceptional service and delivering results that exceed my client's expectations."
+                bawah="The logo features a stylized representation of a game cassette with the brand name prominently displayed. The social media posters use the same playful design elements to showcase the wide variety of games available for purchase through the brand. I wanted to create a brand that was both professional and fun, and I believe that the final result captures that perfectly. I am confident that my design will help Gamingghype stand out in a crowded market and attract the attention of the target demographic."
 
                 image={
                     [
