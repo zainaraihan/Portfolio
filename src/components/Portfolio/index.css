@@ -57,6 +57,7 @@
     width: 41.43rem;
     height: 28.75rem;
     z-index: 1;
+    text-decoration: none;
 }
 
 .Portfolio .value .main .isi .f .frame .frameImg {

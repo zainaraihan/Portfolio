@@ -1,0 +1,107 @@
+.mrgn {
+    margin: 0 4vw;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 40vw;
+    overflow: hidden;
+    margin-top: 1.3rem;
+}
+
+.header img {
+    position: absolute;
+    width: 100%;
+    top: -20%;
+}
+
+.info {
+    color: #BDFF00;
+    margin: 9vw 9vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .left {
+    display: flex;
+    gap: 20vw;
+}
+
+.info .left>div>p {
+    color: #BDFF00;
+    font-size: 1rem;
+}
+
+.info .project {
+    width: 35%;
+}
+
+.info .project p {
+    text-align: justify;
+}
+
+.info>div>p {
+    margin-bottom: 2vw;
+}
+
+
+.info div div div>p {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    line-height: 1.3rem;
+    color: #8e8e8e;
+}
+
+.info .project div p {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    line-height: 1.3rem;
+    color: #8e8e8e;
+}
+
+.isiImage {
+    margin-bottom: 2rem;
+}
+
+.isiImage img {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.zGif {
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.zGif img {
+    width: 15vw;
+}
+
+@media only screen and (max-width: 767px) {
+    .info {
+        flex-direction: column;
+        margin: 12vw 12vw;
+        font-size: 1rem;
+    }
+
+    .info .left {
+        justify-content: space-between;
+        margin-bottom: 10vw;
+    }
+
+    .info .project {
+        width: 100%;
+    }
+
+    .info div div div>p {
+        font-size: 0.9rem;
+    }
+
+    .info .project div p {
+        font-size: 0.9rem;
+    }
+}
