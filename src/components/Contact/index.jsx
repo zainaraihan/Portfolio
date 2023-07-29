@@ -25,7 +25,7 @@ const Contact = () => {
     const [rttl4, setRttl4] = useState("rotate(0deg)");
     const [rttr4, setRttr4] = useState("rotate(0deg)");
     const [rttc3, setRttc3] = useState("rotate(0deg)");
-    const [width, setWidth] = useState('\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0');
+    const [width, setWidth] = useState('\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0');
     const [windowWidth, setWindowWidth] = useState("window.innerWidth");
 
     useEffect(() => {
@@ -169,11 +169,11 @@ const Contact = () => {
     return (
         <div id="contact" className="Contact">
             <div className="mainContact">
-                <p style={{
+                <p className="pContact" style={{
                     WebkitFilter: brl,
                     color: crl
                 }}>
-                    ZAIN ARAIHAN FRONTEND DEV. & CREATIVE {width} DESIGNER
+                    ZAIN ARAIHAN FRONTEND DEV. & CREATIVE DESIGNER
                 </p>
                 <div
                     style={{ fontSize: size }}
