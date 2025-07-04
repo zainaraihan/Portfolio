@@ -93,28 +93,6 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </a>
-                        <a target={"_blank"} href='https://ealquran.netlify.app/' className="f f1 f1Frontend">
-                            <div className="frame frame1 frame1Frontend">
-                                <div
-                                    onMouseEnter={handleEnter}
-                                    onMouseLeave={handleLeave}
-                                    style={{ filter: ckc ? (gray) : (grays) }}
-                                    className='frameImg frameImg1'>
-                                    <img src="/assets/Portfolio/Frontend/alQuran.png" alt="" />
-                                </div>
-                                <div className='frameText frameText1'>
-                                    <div className="textHeader">
-                                        <div className="headerArrow">
-                                            <img src="/assets/Portfolio/arrow.png" alt="" />
-                                        </div>
-                                        <div className='pHeader'>E Al-Quran</div>
-                                    </div>
-                                    <p className='textDetail'>
-                                        /ReactJS /Api /Gsap
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
                     </div>
                 </div>
             </div>

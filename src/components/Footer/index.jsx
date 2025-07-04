@@ -63,7 +63,7 @@ const Footer = () => {
                         className="top">
                         <p>Back to Top <img src="/assets/Portfolio/arrowfooter.png" alt="" /></p>
                     </div>
-                    <p className="copyright">© Zain 2023.</p>
+                    <p className="copyright">© Zain 2025.</p>
                 </div>
             </div>
         </div>

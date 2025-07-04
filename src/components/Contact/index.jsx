@@ -175,40 +175,6 @@ const Contact = () => {
                 }}>
                     ZAIN ARAIHAN FRONTEND DEV. & CREATIVE DESIGNER
                 </p>
-                <div
-                    style={{ fontSize: size }}
-                    onMouseLeave={leave}
-                    onMouseEnter={enter}
-                    className="number">
-                    <a style={{
-                        WebkitFilter: brl3,
-                        color: crl3,
-                        letterSpacing: ltr
-                    }}
-                        target={"_blank"} href="mailto:zainarhn@gmail.com">
-                        <div
-                            style={{ display: "flex" }}>
-                            <span style={{ display: "block", transform: rttl }}>z</span>
-                            <span style={{ display: "block", transform: rttr }}>a</span>
-                            <span style={{ display: "block", transform: rttl }}>i</span>
-                            <span style={{ display: "block", transform: rttr }}>n</span>
-                            <span style={{ display: "block", transform: rttl }}>a</span>
-                            <span style={{ display: "block", transform: rttr }}>r</span>
-                            <span style={{ display: "block", transform: rttl }}>h</span>
-                            <span style={{ display: "block", transform: rttr }}>n</span>
-                            <span style={{ display: "block", transform: rttl }}>@</span>
-                            <span style={{ display: "block", transform: rttr }}>g</span>
-                            <span style={{ display: "block", transform: rttl }}>m</span>
-                            <span style={{ display: "block", transform: rttr }}>a</span>
-                            <span style={{ display: "block", transform: rttl }}>i</span>
-                            <span style={{ display: "block", transform: rttr }}>l</span>
-                            <span style={{ display: "block", transform: rttl }}>.</span>
-                            <span style={{ display: "block", transform: rttr }}>c</span>
-                            <span style={{ display: "block", transform: rttl }}>o</span>
-                            <span style={{ display: "block", transform: rttr }}>m</span>
-                        </div>
-                    </a>
-                </div>
                 <div className="socmed">
                     <div
                         onMouseEnter={emEnter3}
